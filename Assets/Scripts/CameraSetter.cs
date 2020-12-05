@@ -12,7 +12,7 @@ public class CameraSetter : MonoBehaviour
 
     private void Awake()
     {
-        gameObject.GetComponent<Canvas>().worldCamera = Camera.current;
+        gameObject.GetComponent<Canvas>().worldCamera = Camera.main;
         Debug.Log("Camera updated for" + gameObject.ToString());
     }
 
