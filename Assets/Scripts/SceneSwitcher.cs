@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    public List<GameObject> objects = new List<GameObject>();
+    public GameObject go;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,10 +20,7 @@ public class SceneSwitcher : MonoBehaviour
 
     public void switchToScene(GameObject scene)
     {
-        foreach(GameObject go in objects)
-        {
-            go.SetActive(false);
-        }
-        scene.SetActive(true);
+        go.SetActive(false);
+        scene.GetComponent<ARTrackedImageManager>().enabled = true;
     }
 }

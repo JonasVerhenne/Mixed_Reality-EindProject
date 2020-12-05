@@ -21,7 +21,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 4311322161378689410
       m_GuidHigh: 11383693760881424858
-    m_Size: {x: 0.29411766, y: 0.2}
+    m_Size: {x: 0.34, y: 0.23120001}
     m_SpecifySize: 1
     m_Name: gameofthrones2
     m_Texture: {fileID: 0}

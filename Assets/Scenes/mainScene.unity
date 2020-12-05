@@ -5683,7 +5683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ReferenceLibrary: {fileID: 11400000, guid: 346bd7bf6d5059f4b8c66aca28bc4a6e, type: 2}
   m_MaxNumberOfMovingImages: 1
-  m_TrackedImagePrefab: {fileID: 150883494}
+  m_TrackedImagePrefab: {fileID: 444655817}
 --- !u!1 &1141481378
 GameObject:
   m_ObjectHideFlags: 0
@@ -8425,7 +8425,7 @@ MonoBehaviour:
         m_MethodName: switchToScene
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 444655817}
+          m_ObjectArgument: {fileID: 1141171448}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9032,9 +9032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e06d1608250ce84db869bb8a07adcb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 444655817}
-  - {fileID: 150883494}
+  go: {fileID: 150883494}
 --- !u!4 &1779878716
 Transform:
   m_ObjectHideFlags: 0
