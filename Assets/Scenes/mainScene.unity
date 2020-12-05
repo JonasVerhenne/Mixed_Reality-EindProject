@@ -2259,6 +2259,41 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 614241153300422163, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984109579807626479, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984109579807626479, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984109579807626479, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984109579807626479, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984109579807626479, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1984109579807626479, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 140
+      objectReference: {fileID: 0}
     - target: {fileID: 6160587114442192193, guid: 037c588e5662dc146b28cdc416bbf152,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2318,6 +2353,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PanelView
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877604158094591690, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9036918056372465962, guid: 037c588e5662dc146b28cdc416bbf152,
         type: 3}
