@@ -16,12 +16,22 @@ MonoBehaviour:
   m_GuidHigh: 8582010982526129571
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4939649772894150290
-      m_GuidHigh: 377238731509645241
+      m_GuidLow: 5484774900696096218
+      m_GuidHigh: 2187608687039685805
     m_SerializedTextureGuid:
-      m_GuidLow: 4311322161378689410
-      m_GuidHigh: 11383693760881424858
-    m_Size: {x: 0.34, y: 0.23120001}
+      m_GuidLow: 15079393444345387803
+      m_GuidHigh: 15901751868109170219
+    m_Size: {x: 0.085, y: 0.055}
     m_SpecifySize: 1
-    m_Name: gameofthrones2
+    m_Name: Jonas
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4804696186352486914
+      m_GuidHigh: 7938933545396957844
+    m_SerializedTextureGuid:
+      m_GuidLow: 8693125998977556944
+      m_GuidHigh: 1484379583267463947
+    m_Size: {x: 0.085, y: 0.055}
+    m_SpecifySize: 1
+    m_Name: Stijn
     m_Texture: {fileID: 0}

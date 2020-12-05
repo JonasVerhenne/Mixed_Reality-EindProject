@@ -23,4 +23,8 @@ public class SceneSwitcher : MonoBehaviour
         go.SetActive(false);
         scene.GetComponent<ARTrackedImageManager>().enabled = true;
     }
+    public void closeScene(GameObject scene)
+    {
+        scene.SetActive(false);
+    }
 }
