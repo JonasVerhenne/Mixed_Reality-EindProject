@@ -2244,6 +2244,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1141171450}
     m_Modifications:
+    - target: {fileID: 241148972389964782, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241148972389964782, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 241148972389964782, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6160587114442192193, guid: 037c588e5662dc146b28cdc416bbf152,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2303,6 +2318,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PanelView
+      objectReference: {fileID: 0}
+    - target: {fileID: 9036918056372465962, guid: 037c588e5662dc146b28cdc416bbf152,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 037c588e5662dc146b28cdc416bbf152, type: 3}
