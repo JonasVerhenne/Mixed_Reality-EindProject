@@ -241,7 +241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &150883495
 Transform:
   m_ObjectHideFlags: 0
@@ -1135,6 +1135,7 @@ GameObject:
   - component: {fileID: 1141171450}
   - component: {fileID: 1141171449}
   - component: {fileID: 1141171451}
+  - component: {fileID: 1141171452}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -1187,8 +1188,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ReferenceLibrary: {fileID: 11400000, guid: 346bd7bf6d5059f4b8c66aca28bc4a6e, type: 2}
   m_MaxNumberOfMovingImages: 2
-  m_TrackedImagePrefab: {fileID: 6548431849865671987, guid: 037c588e5662dc146b28cdc416bbf152,
-    type: 3}
+  m_TrackedImagePrefab: {fileID: 0}
+--- !u!114 &1141171452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141171448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33ca873adc722b4498ddebfa33f0b79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jonas: {fileID: 6548431849865671987, guid: 037c588e5662dc146b28cdc416bbf152, type: 3}
+  stijn: {fileID: 6548431849865671987, guid: f9c8acfcd7d3baa4a8fe55d0a0cb25d2, type: 3}
+  avatar: {fileID: 1133312968}
 --- !u!1 &1141481378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,6 +2014,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1779878715}
+        m_MethodName: setAvatar
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1133312968}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1779878715}
         m_MethodName: switchToScene
         m_Mode: 2
         m_Arguments:
@@ -2266,6 +2292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   go: {fileID: 150883494}
+  ARParent: {fileID: 1360058583}
 --- !u!4 &1779878716
 Transform:
   m_ObjectHideFlags: 0

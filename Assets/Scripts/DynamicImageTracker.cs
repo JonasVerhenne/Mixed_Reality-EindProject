@@ -8,6 +8,9 @@ public class DynamicImageTracker : MonoBehaviour
 
     public GameObject jonas;
     public GameObject stijn;
+    public GameObject avatar;
+
+    private bool isFirstTime = true;
 
     ARTrackedImageManager m_image_tracker;
     Dictionary<int, GameObject> m_spawned_worlds = new Dictionary<int, GameObject>();
@@ -29,6 +32,10 @@ public class DynamicImageTracker : MonoBehaviour
 
     void OnTrackedImageChanged(ARTrackedImagesChangedEventArgs args_)
     {
+        if(isFirstTime)
+        {
+            avatar.SetActive(true);
+        }
 
         foreach (ARTrackedImage i in args_.added)
         {
