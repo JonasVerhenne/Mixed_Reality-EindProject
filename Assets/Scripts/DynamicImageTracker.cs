@@ -9,6 +9,7 @@ public class DynamicImageTracker : MonoBehaviour
     public GameObject jonas;
     public GameObject stijn;
     public GameObject avatar;
+    public GameObject popup;
 
     private bool isFirstTime = true;
 
@@ -34,7 +35,9 @@ public class DynamicImageTracker : MonoBehaviour
     {
         if(isFirstTime)
         {
-            avatar.SetActive(true);
+            //avatar.SetActive(true);
+            popup.SetActive(true);
+            isFirstTime = false;
         }
 
         foreach (ARTrackedImage i in args_.added)
